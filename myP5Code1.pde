@@ -1,5 +1,6 @@
 setup = function() {
     size(600, 400);
+    drawBow(400,200, color(0,200,200));
 };
 
 //Background Images
@@ -29,6 +30,9 @@ draw = function(){
   
 };
 
+
+
+  
 var drawScene = function(){
     image(sceneImage, 0, 0);
     
